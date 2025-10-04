@@ -1,4 +1,9 @@
-# Quentin Lambolez-Giudicelli | Quantitative Research & Systematic Trading
+<div align="center">
+
+# Quentin Lambolez-Giudicelli
+# Quantitative Research & Systematic Trading
+
+</div>
 
 🎯 **MSc Financial Engineering @ ESILV Paris** | Seeking Quant Research/Systematic Trading Internship (Feb 2026)  
 💻 **Python • C++ • C# • R • SQL** | **Advanced ML • Time-Series • Derivatives Pricing**
