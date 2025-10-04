@@ -11,6 +11,12 @@ I’m Quentin, a final-year MSc Financial Engineering student at ESILV (Paris), 
 
 - 📈 **Recent:** Transformed a legacy codebase into a production trading system (TotalEnergies internship)
 - 🖥️ **Skills:** Python, C++, C#, R, SQL, Deep Learning (FNN, LSTM), Time-Series, Ensemble ML, Derivatives Pricing
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2b%2b&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-brightgreen?style=for-the-badge&logo=scikit-learn)
+![Finance](https://img.shields.io/badge/Finance-gold?style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Rugby](https://img.shields.io/badge/Rugby-CC0000?style=for-the-badge)
 - 🧠 **Financial Expertise:** Market risk, derivatives, stochastic calculus, econometrics
 - 🏉 **Rugby:** Competitive player since 2008
 - 📰 **Media:** Co-manage [SquiidApe](https://www.linkedin.com/company/93077055/), 100k+ subscribers (U.S. urban culture)
