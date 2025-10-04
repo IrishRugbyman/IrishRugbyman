@@ -15,6 +15,7 @@ Final-year Financial Engineering student specializing in **Quantitative Research
 
 ### 🛠️ **Core Technologies**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C#/.NET](https://img.shields.io/badge/C%23-.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
