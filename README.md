@@ -1,6 +1,7 @@
 <div align="center">
 
 # Quentin Lambolez-Giudicelli
+
 ## Quantitative Research & Systematic Trading
 
 </div>
