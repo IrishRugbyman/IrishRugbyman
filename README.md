@@ -119,7 +119,3 @@ Classification models and ML pipeline implementations
 </details>
 
 ---
-
-<div align="center">
-  <img src="https://visitor-badge.glitch.me/badge?page_id=IrishRugbyman.IrishRugbyman&style=flat-square&color=0088cc"/>
-</div>
