@@ -35,8 +35,6 @@ I’m Quentin, a final-year MSc Financial Engineering student at ESILV (Paris), 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IrishRugbyman&layout=compact)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=IrishRugbyman)
 ![Profile Trophy](https://github-profile-trophy.vercel.app/?username=IrishRugbyman)
-![Visitor Badge](https://visitor-badge.glitch.me/badge?page_id=IrishRugbyman)
-
 
 ---
 
