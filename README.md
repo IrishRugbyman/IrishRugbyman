@@ -9,7 +9,7 @@ Geneva / Paris • MSc Financial Engineering, ESILV (2026)
 Seeking a **junior / graduate role in quantitative finance** — available from **September 2026**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/quentin-lambolez/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:quentin.lambolez@edu.devinci.fr)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:lbz.quentin@gmail.com)
 
 </div>
 
@@ -37,10 +37,25 @@ Quant developer with production experience building **real-time algorithmic trad
 
 ## Projects
 
-- **[Options Pricing & Simulation](https://github.com/IrishRugbyman/options-pricing-and-simulation)** · *C++* — Monte Carlo, Black-Scholes and finite-difference PDE solvers for vanilla and exotic options.
-- **Synthetic Market Data Generator** · *Python, ML* — Generative model producing realistic synthetic financial time series for strategy backtesting and model validation (school project for TotalEnergies, 2025–26).
-- **[Commodity Multi-Asset Quant](https://github.com/IrishRugbyman/commo-multiasset-quant)** · *Python* — Systematic commodity trading research and backtesting.
-- **[Portfolio Optimization (Pi2)](https://github.com/IrishRugbyman/Pi2)** · *Python* — Portfolio construction and risk management.
+**[European Energy Hub](https://github.com/IrishRugbyman/european-energy-hub)** · *Python, FastAPI, DuckDB, LightGBM, React* · [live](https://energy.lbzgiu.xyz)
+Live dashboard for European gas and power markets (AGSI+, ENTSO-E, ENTSOG, Netztransparenz; 60+ API endpoints, 108 tests). Hosts a 57-phase, fully documented research arc on day-ahead power fair value:
+- Nonlinear "low-wind hinge" fair-value model whose residual mean-reverts with 1.2–2.7 day half-lives across five zones; five-zone inverse-vol fade book reaches **OOS Sharpe 3.80** (deflated Sharpe 0.99 after a 25-trial haircut), with look-ahead bias measured explicitly.
+- German reBAP imbalance signal: walk-forward OLS on forecast errors, **70.3% directional accuracy** vs 50.5% naive, OOS Sharpe 3.75 net of costs.
+
+**[Freight Hub](https://github.com/IrishRugbyman/freight-hub)** · *Python, FastAPI, DuckDB, React* · [live](https://freight.lbzgiu.xyz)
+Maritime freight intelligence on free AIS data: tracks ~4,000 tankers and bulk carriers, detects chokepoint transits, ship-to-ship transfers, dark voyages and GPS spoofing, and scores shadow-fleet risk (registry data + OFAC screening). Includes a physics-based ETA model with calibrated uncertainty intervals.
+
+**[Options Pricing & Simulation](https://github.com/IrishRugbyman/options-pricing-and-simulation)** · *C++17, CMake, CI*
+Derivatives pricing library: Black-Scholes with full Greeks, implied vol (Newton + bisection fallback), CRR trees with American exercise, Monte Carlo with CI-based stopping (European, digital, Asian), Bachelier for negative power/oil prices, and spread options (Margrabe, Kirk, correlated MC) for crack/spark spreads. Tested against parity, convergence and finite-difference Greeks.
+
+**[Capesize Freight Dispersion Trading](https://github.com/Virgile-Roumens/freight_dispersion_trading)** · *Python, Streamlit* · *team project*
+Signals on 5TC FFA prices from Capesize fleet dispersion: lead-lag and Granger causality analysis, regime detection, and a backtest engine with fee sensitivity.
+
+**[Cross-Asset Trend Following](https://github.com/IrishRugbyman/algo-trading-project)** · *Python* · *ESILV capstone*
+CTA-style trend-following strategy across 47 assets, validated on held-out 2023–2025 out-of-sample data.
+
+**Synthetic Market Data Generator** · *Python, ML* · *school project for TotalEnergies, 2025–26 (private)*
+Generative model producing realistic synthetic financial time series for strategy backtesting and model validation.
 
 ## Skills
 
@@ -49,7 +64,7 @@ Quant developer with production experience building **real-time algorithmic trad
 | **Programming** | Python (NumPy, Pandas, Scikit-learn, PyTorch, Numba), C++, C#, R, SQL, Git, Linux |
 | **Quant Finance** | Time-series econometrics, market risk (VaR/CVaR), extreme value theory, simulation methods, derivatives pricing, commodity & power markets |
 | **Machine Learning** | Supervised/unsupervised learning, FNN, XGBoost, tree ensembles, SHAP explainability, nested walk-forward CV, regime detection, RAG/LLM pipelines |
-| **Tooling** | Streamlit, Plotly, FastAPI, LangChain, Milvus |
+| **Engineering** | FastAPI, DuckDB, React/TypeScript, Streamlit, Plotly, CMake, CI, LangChain, Milvus |
 
 ## Education
 
