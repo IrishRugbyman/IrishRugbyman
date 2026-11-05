@@ -1,121 +1,61 @@
 <div align="center">
 
-# Quentin Lambolez-Giudicelli | Quant Research, Dev & Trading
+# Quentin Lambolez-Giudicelli
+
+**Quantitative Developer & Researcher | ML for Systematic Trading**
+
+Geneva / Paris • MSc Financial Engineering, ESILV (2026)
+
+Seeking a **junior / graduate role in quantitative finance** — available from **September 2026**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/quentin-lambolez/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:quentin.lambolez@edu.devinci.fr)
 
 </div>
 
-🎯 **MSc Financial Engineering @ ESILV Paris** | Seeking Quant Research/Systematic Trading Internship (Feb 2026)  
-💻 **Python • C++ • C# • R • SQL** | **Advanced ML • Time-Series • Derivatives Pricing**
-
 ---
 
-## 👋 About Me
+## About
 
-Final-year Financial Engineering student specializing in **Quantitative Research** and **Systematic Trading**, with hands-on experience transforming legacy systems into production-grade trading infrastructure.
+Quant developer with production experience building **real-time algorithmic trading pipelines**, **ML signal frameworks** and **model explainability tooling** for power and FX markets at TotalEnergies.
 
-### 🏢 **Recent Experience**
-- **TotalEnergies** - Systematic & Algorithmic Trading Intern *(May-Aug 2025)*
-- **Spyros.AI** - Python/ML Finance Intern *(May 2024-Apr 2025)*
+## Experience
 
-### 🛠️ **Core Technologies**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C#/.NET](https://img.shields.io/badge/C%23-.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+**TotalEnergies** — ML & Quantitative Developer Intern, Market Analysis, Algo & Quant Team · *Geneva · Feb–Aug 2026*
+- Architected and shipped three real-time algorithmic trading pipelines (intraday spread, imbalance, US multi-hub) for short-term power markets: ML signal ingestion, position sizing with HRP/ranking blends, and VaR/CVaR risk limits across ERCOT, CAISO and European hubs.
+- Built an internal SHAP explainability library for tree-based ensemble blends, deriving a logit-space normalization for probability-native classifiers (RF, ExtraTrees) via a first-order Taylor expansion of the logit link, with per-row additivity checks. Deployed across all forecasting models.
+- Developed a model diagnostics tool (Streamlit/Plotly) with drill-down from blended feature groups to individual SHAP contributions, used daily to monitor signal stability and feature drift.
 
-### 🎯 **Quantitative Expertise**
-- **Trading Systems:** Production infrastructure, real-time data processing (Numba, parallelization)
-- **Machine Learning:** Ensemble models (CTA, FNN, LSTM), 25+ alpha factors, walk-forward validation
-- **Risk Management:** Sharpe analysis, PnL distribution, statistical filtering, backtesting engines
-- **Financial Modeling:** Derivatives pricing, stochastic calculus, time-series econometrics
+**TotalEnergies** — Quantitative Developer / Researcher Intern, Treasury FX Systematic Trading · *Paris · May–Aug 2025*
+- Transformed a legacy codebase into an OOP, production-grade systematic trading platform for research and live deployment; accelerated real-time processing with Numba JIT, parallelization and vectorization.
+- Engineered a modular ML framework (FNN, XGBoost) for signal generation.
+- Built a backtesting engine with nested walk-forward cross-validation to eliminate data leakage.
 
----
+**Spyros.ai** — AI Engineer Intern · *Paris · May 2024–Apr 2025*
+- Engineered an end-to-end LLM pipeline (LangChain, Vanna.AI) with vector retrieval (Milvus) translating natural-language queries into optimized SQL over financial databases.
+- Architected a secure FastAPI backend and Chainlit frontend letting financial professionals query sensitive proprietary data without exposing it.
 
-## 🚀 **Featured Projects**
+## Projects
 
-### [🔗 Options Pricing & Simulation](https://github.com/IrishRugbyman/options-pricing-and-simulation)
-**C++ • Derivatives • Monte Carlo**  
-Advanced options pricing models with simulation techniques
+- **[Options Pricing & Simulation](https://github.com/IrishRugbyman/options-pricing-and-simulation)** · *C++* — Monte Carlo, Black-Scholes and finite-difference PDE solvers for vanilla and exotic options.
+- **Synthetic Market Data Generator** · *Python, ML* — Generative model producing realistic synthetic financial time series for strategy backtesting and model validation (school project for TotalEnergies, 2025–26).
+- **[Commodity Multi-Asset Quant](https://github.com/IrishRugbyman/commo-multiasset-quant)** · *Python* — Systematic commodity trading research and backtesting.
+- **[Portfolio Optimization (Pi2)](https://github.com/IrishRugbyman/Pi2)** · *Python* — Portfolio construction and risk management.
 
-### [🔗 Commodity Multi-Asset Quant](https://github.com/IrishRugbyman/commo-multiasset-quant)
-**Python • Jupyter • Quantitative Research**  
-Systematic commodity trading research and backtesting
+## Skills
 
-### [🔗 Portfolio Optimization (Pi2)](https://github.com/IrishRugbyman/Pi2)
-**Python • Portfolio Theory • Optimization**  
-Optimized portfolio construction and risk management
+| | |
+|---|---|
+| **Programming** | Python (NumPy, Pandas, Scikit-learn, PyTorch, Numba), C++, C#, R, SQL, Git, Linux |
+| **Quant Finance** | Time-series econometrics, market risk (VaR/CVaR), extreme value theory, simulation methods, derivatives pricing, commodity & power markets |
+| **Machine Learning** | Supervised/unsupervised learning, FNN, XGBoost, tree ensembles, SHAP explainability, nested walk-forward CV, regime detection, RAG/LLM pipelines |
+| **Tooling** | Streamlit, Plotly, FastAPI, LangChain, Milvus |
 
-### [🔗 Machine Learning Projects](https://github.com/IrishRugbyman/iris-titanic-ml)
-**Python • Scikit-learn • Feature Engineering**  
-Classification models and ML pipeline implementations
+## Education
 
----
+- **ESILV** — MSc in Financial Engineering (Grande École) · *Paris · 2022–2026*
+- **Lycée Ferdinand Buisson** — PTSI/PT preparatory classes · *Voiron · 2020–2022*
 
-## 📊 **GitHub Analytics**
+## Outside Work
 
-<div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=IrishRugbyman&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IrishRugbyman&layout=compact&theme=tokyonight&hide_border=true"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=IrishRugbyman&theme=tokyonight&hide_border=true"/>
-</div>
-
----
-
-## 🏆 **Key Achievements**
-
-- **🏭 Production Systems:** Transformed legacy codebase to 40K+ line enterprise trading system
-- **⚡ Performance:** Achieved 100x code expansion with Numba JIT and parallel processing optimization
-- **🤖 ML Innovation:** Developed 25+ alpha factors with nested walk-forward cross-validation
-- **📈 Trading:** Deployed systematic FX/IR strategies with comprehensive risk-adjusted backtesting
-- **🛡️ GenAI Security:** Built secure LLM platforms for SQL querying without data exposure
-- **📰 Media:** Co-founded SquiidApe (100K+ subscribers in U.S. urban culture)
-
----
-
-## 🌐 **Professional Links**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/quentin-lambolez/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:quentin.lambolez@edu.devinci.fr)
-[![SquiidApe](https://img.shields.io/badge/SquiidApe-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.linkedin.com/company/93077055/)
-
----
-
-## 🌱 **Currently**
-
-- 🎓 Completing MSc Financial Engineering at ESILV Paris
-- 🔍 Seeking **Quantitative Research/Systematic Trading** internship opportunities
-- 🏉 Playing competitive rugby (since 2008)
-- 📚 Exploring advanced ML applications in systematic trading
-
----
-
-<details>
-<summary>📋 <strong>Technical Skills Deep Dive</strong></summary>
-
-### **Programming Languages**
-- **Python:** Production systems, ML pipelines, backtesting frameworks
-- **C++:** High-performance computing, derivatives pricing models
-- **R:** Econometrics, statistical analysis, time-series modeling
-- **SQL:** Database optimization, complex financial data queries
-- **C#/.NET:** Enterprise applications and financial tools
-
-### **Financial Engineering**
-- **Derivatives:** Pricing models, Greeks calculation, hedging strategies
-- **Risk Management:** VaR, stress testing, portfolio optimization
-- **Time Series:** ARIMA, GARCH, state-space models, regime detection
-- **Machine Learning:** Feature engineering, ensemble methods, cross-validation
-
-### **Tools & Frameworks**
-- **ML:** Scikit-learn, TensorFlow, Optuna, Numba
-- **Data:** Pandas, NumPy, Milvus, Bloomberg Terminal
-- **Dev:** Git, Linux, LaTeX, FastAPI, LangChain
-- **Finance:** Quantlib, Bloomberg APIs, market data processing
-
-</details>
-
----
+🏉 Competitive rugby player since 2008 • 📰 Co-manager of [SquiidApe](https://www.linkedin.com/company/93077055/) (100k+ subscribers), a media platform on U.S. urban culture and history • 🌍 French (native), English (bilingual, C1), Spanish (working)
